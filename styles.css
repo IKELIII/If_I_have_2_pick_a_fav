@@ -1,0 +1,137 @@
+/* Reset some default styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f1f1f1;
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+header {
+  background-color: #004E92; /* Deep blue */
+  color: white;
+  text-align: center;
+  padding: 50px 0;
+}
+
+header h1 {
+  font-size: 3em;
+}
+
+header p {
+  font-size: 1.2em;
+}
+
+section {
+  padding: 40px 0;
+}
+
+section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+section p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.intro img {
+  max-width: 400px;
+  margin: 20px 0;
+}
+
+.habitat img, .diet img {
+  max-width: 600px;
+}
+/* New section styling for the Washington State bird */
+.state-bird {
+  background-color: #B0C4DE; /* Soft blue-gray for a serene feel */
+  padding: 40px 0;
+}
+
+.state-bird h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.state-bird p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.state-bird img {
+  max-width: 600px;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fun-facts ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.fun-facts li {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  background-color: #A0E1D3; /* Light jewel tone */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
+  font-size: 1.1em;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+
+  header h1 {
+    font-size: 2.5em;
+  }
+
+  header p {
+    font-size: 1em;
+  }
+
+  section h2 {
+    font-size: 1.5em;
+  }
+
+  .fun-facts li {
+    font-size: 1em;
+  }
+}
